@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>hello world</h2>
+    <p id="demo"></p>
+    <script>
+        // let a = {
+        //     name: 'minh tri',
+        //     age: 21
+        // }
+        // let b = {
+        //     name: 'minh anh',
+        //     age: 21
+        // }
+        // const array = [a, b]
+        // array[1].name = 'ho boc ngoc'
+        // console.log('My array:', array);
+        // console.log('first :', array[0], 'second :', array[1])
+        // let c = ['MU', 'Chelsea', 'Liver']
+        // console.log('type of c', typeof c, c)
+        // console.log('First item:', c[0], 'Second item:', c[1])
+
+        // let family = [
+        //     { name: 'shu', age: 18 },
+        //     { name: 'duc', age: 23 }
+        // ];
+        // console.log('my family:',family)
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        let fLen = fruits.length;
+
+        let text = "<ul>";
+        for (let i = 0; i < fLen; i++) {
+            text += "<li>" + fruits[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+
+</html>
